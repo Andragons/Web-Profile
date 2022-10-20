@@ -1,0 +1,54 @@
+#header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    transition: top .3s ease;
+    z-index: 2;
+}
+
+#header.show{
+    top: -70px;
+}
+
+
+.bg {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/162/598/non_2x/red-horizontal-landscape-with-fog-forest-christmas-tree-spruce-fir-and-morning-sunlight-illustration-of-panoramic-view-silhouette-mist-and-silhouettes-mountains-fire-in-the-woods-free-vector.jpg");
+    background-size: cover;
+    background-position:center; 
+    background-repeat: no-repeat;
+    height: 15em;
+    width: 100em;
+}
+
+.font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 5vw;
+    color: white;
+    opacity: 90%;
+    padding-top: 5%;
+}
+
+@media (max-width : 1115px){
+    .font {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width : 990px){
+    .font {
+        padding-top: 15%;
+    }
+}
+
+@media (max-width : 766px){
+    .font {
+        padding-top: 20%;
+    }
+}
+
+@media (max-width : 575px){
+    .font {
+        padding-top: 10%;
+    }
+}
